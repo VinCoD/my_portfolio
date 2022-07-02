@@ -18,12 +18,36 @@ body{
 .section-1{
     display: grid;
     grid-template-columns: 1fr auto 1fr;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.brief{
+    margin-top: 50px;
+    line-height: 3em;
+}
+
+hr{
+    margin-top: 100px;
 }
 
 .middle-line{
     border: 1px solid ;
 }
 
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
 .nav-bar ul li{
     list-style-type: none;
 }
