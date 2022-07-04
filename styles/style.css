@@ -23,9 +23,9 @@ body{
     margin-right: 20px;
 }
 
-.logo{
+/* .logo{
     position: fixed;
-}
+} */
 
 .brief{
     margin-top: 110px;
@@ -38,7 +38,7 @@ hr{
 }
 
 .middle-line{
-    border: 1px solid ;
+    border: 1px solid var(--accent-color);
 }
 
 
@@ -53,6 +53,7 @@ ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
    
     /* gap: 300px; */
 }
@@ -83,6 +84,7 @@ ul{
     color: var(--accent-color);
     padding: 10px;
     border-radius: 10px;
+    align-self: flex-end;
 }
 
 .profile-img img{
